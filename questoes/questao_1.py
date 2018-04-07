@@ -9,7 +9,11 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 1")
+    x = []
+for n in range(5):
+ numeros = int(input('digite números'))
+ x.append(numeros)
+print ('maior número da lista é:', max(x),'menor número da lista é:', min (x))
     
 
 
