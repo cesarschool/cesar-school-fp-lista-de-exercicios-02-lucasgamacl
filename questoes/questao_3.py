@@ -14,7 +14,12 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 3")
+    Cash = int(input('Qual o seu salário?: '))
+    DTO = ((Cash/100)*11)
+    if DTO>=318.20:
+        print('Seu salário com desconto é: ', (Cash - 318.20))
+    else:
+        print('Seu salário com desconto é: ', (Cash - DTO))
 
 
     
