@@ -13,7 +13,15 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 2")
+        peso = int(input('Quantos Kilos voce pesa?: '))
+        altura = float(input('Qual sua altura?: '))
+        IMC = (peso/(altura*altura))
+    if (IMC>25):
+        print ('Você está acima do peso!')
+        print (IMC)
+    else:
+        print ('Você está abaixo do peso!')
+        print (IMC)
 
 
 
